@@ -1,0 +1,15 @@
+.button{
+    padding: 6px 15px;
+    background-color: rgb(15, 198, 15);
+    border: 1px solid rgb(15, 198, 15);
+    box-shadow: rgb(15, 198, 15) 0px 1px 25px;
+    border-radius: 5px;
+    margin: 6px;
+    opacity: .6;
+    transition: opacity .3s ease-in;
+    cursor: pointer;
+}
+.button:hover{
+    box-shadow: rgb(15, 198, 15) 0px 2px 40px;;
+    opacity: 1;
+}

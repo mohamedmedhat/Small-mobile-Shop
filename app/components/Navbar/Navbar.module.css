@@ -1,0 +1,14 @@
+.container{
+    font-family: serif;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.linkss{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
