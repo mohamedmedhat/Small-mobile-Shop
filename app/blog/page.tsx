@@ -1,5 +1,5 @@
 import Link from "next/link"
-import styles from './page.module.css'
+import styles from './page.module.scss'
 import Image from 'next/image'
 import  { Metadata } from 'next'
 
@@ -43,57 +43,6 @@ return (
             </div>
             </Link>
         ))}
-
-
-        {/* <Link href="id" className={styles.post}>
-        <div className={styles.container}>
-            <Image
-            className={styles.image}
-            src="https://images2.alphacoders.com/101/thumb-1920-1019901.jpg"
-            width={350}
-            height={250}
-            draggable="false"
-            alt=""
-            />
-            <div className={styles.content}>
-                <h1 className={styles.text}>Memo Salad</h1>
-            </div>
-        </div>
-        </Link>
-
-        <Link href="id" className={styles.post}>
-        <div className={styles.container}>
-            <Image
-            className={styles.image}
-            src="https://wallpaperaccess.com/full/826922.jpg"
-            width={350}
-            height={250}
-            draggable="false"
-            alt=""
-            />
-            <div className={styles.content}>
-                <h1 className={styles.text}>Pizza hot</h1>
-            </div>
-        </div>
-        </Link>
-
-        <Link href="id" className={styles.post}>
-        <div className={styles.container}>
-            <Image
-            className={styles.image}
-            src="https://backiee.com/static/wpdb/wallpapers/3840x2160/196512.jpg"
-            width={350}
-            height={250}
-            draggable="false"
-            alt=""
-            />
-            <div className={styles.content}>
-                <h1 className={styles.text}>Kings stick</h1>
-            </div>
-        </div>
-        </Link> */}
-    
-
     </div>
 )
 }

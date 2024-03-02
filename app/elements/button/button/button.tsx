@@ -1,5 +1,5 @@
 'use client'
-import styles from './button.module.css'
+import styles from './button.module.scss'
 import {Bitter} from 'next/font/google'
 
 const buttonFont =Bitter({

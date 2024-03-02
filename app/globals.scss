@@ -1,0 +1,56 @@
+:root{
+  --primary-color: rgb(85, 173, 85);
+  --secondary-color: #bbb;
+  --btn-color: rgb(15, 198, 15);
+  --btn-radius: 5px;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.container{
+  max-width: 1100px;
+  min-width: 100vh;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.theme{
+  transition: .4s all ease-in-out;
+}
+
+.light{
+  background-color: white;
+  color: #111;
+}
+
+.dark{
+  background-color: #111;
+  color: #bbb;
+}

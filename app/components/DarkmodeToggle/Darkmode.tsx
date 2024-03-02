@@ -1,7 +1,7 @@
 "use client"
 import { ThemeContext } from '@/app/context/themeContext'
 import { useContext } from 'react'
-import styles from './Darkmode.module.css'
+import styles from './Darkmode.module.scss'
 
 export default function Darkmode() {
     const {mode, SWITCH} =useContext(ThemeContext)

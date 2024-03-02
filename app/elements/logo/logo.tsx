@@ -1,5 +1,5 @@
 import Link from "next/link"
-import styles from './logo.module.css'
+import styles from './logo.module.scss'
 
 import { Lobster} from 'next/font/google'
 
